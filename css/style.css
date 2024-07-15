@@ -17,14 +17,13 @@ i
     height:100px;
     margin-bottom: 20px;
 }
-.street div
+.street .a
 {
     width: 100px;
     height: 100px;
     position: absolute;
     left: 10px;
 }
-
 .person1
 {
     animation: changing 3s ease 0s 1  forwards;
@@ -64,15 +63,17 @@ i
     animation: changing 3s ease 21s 1 reverse backwards;
     top: 840px;
 }
-
+.a:hover
+{
+   animation-play-state: paused;
+}
 @keyframes changing {
    
     100%
     {
         left: 93%;
         transform: rotateY(180deg);
-    }
-    
+    } 
 }
 
 
