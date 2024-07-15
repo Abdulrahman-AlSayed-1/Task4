@@ -1,0 +1,78 @@
+body
+{
+    height: 950px;
+    margin: 0;
+}
+i
+{
+    font-size: 100px;
+    color: blue;
+}
+.street
+{
+    background-image:url(../images/road.jpg) ; 
+    background-position: center; 
+    background-size: 150px;
+    width: 100vw;
+    height:100px;
+    margin-bottom: 20px;
+}
+.street div
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 10px;
+}
+
+.person1
+{
+    animation: changing 3s ease 0s 1  forwards;
+}
+.person2
+{
+    animation: changing 3s ease 3s 1 reverse backwards;
+    top: 120px;
+}
+.person3
+{
+    animation: changing 3s ease 6s 1  forwards;
+    top: 240px;
+}
+.person4
+{
+    animation: changing 3s ease 9s 1  reverse backwards;
+    top: 360px;
+}
+.person5
+{
+    animation: changing 3s ease 12s 1  forwards;
+    top: 480px;
+}
+.person6
+{ 
+    animation: changing 3s ease 15s 1 reverse backwards;
+    top: 600px;
+}
+.person7
+{
+    animation: changing 3s ease 18s 1  forwards;
+    top: 720px;
+}
+.person8
+{
+    animation: changing 3s ease 21s 1 reverse backwards;
+    top: 840px;
+}
+
+@keyframes changing {
+   
+    100%
+    {
+        left: 93%;
+        transform: rotateY(180deg);
+    }
+    
+}
+
+
